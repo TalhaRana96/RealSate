@@ -1,0 +1,34 @@
+.r-wrapper {
+    padding: 20px;
+  }
+  
+  .r-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .r-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .r-price {
+    font-size: 1.5rem;
+  }
+  
+  .primaryText {
+    font-weight: bold;
+  }
+  
+  .secondaryText {
+    color: gray;
+  }
+  
+  .detailsText {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
