@@ -31,4 +31,9 @@
     font-size: 0.9rem;
     color: #666;
   }
+
+  .swiper-wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   

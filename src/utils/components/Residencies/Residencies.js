@@ -16,7 +16,7 @@ const Residencies = () => {
             </div>
         </div>
 
-        <Swiper
+        <Swiper className='m-swipe'
       spaceBetween={50}
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
@@ -29,10 +29,12 @@ const Residencies = () => {
                     <div className='r-card'>
                     {/* <img src={`${r1.png}${card.image}`} alt={card.name} /> */}
                             <span className='secondaryText r-price'>
+                              <br />
                                 <span style={{color: "orange"}}>$</span>
+                                <br />
                                 <span>{card.Price}</span>
                             </span>
-
+                              <br />
                             <span className='primaryText'>{card.name}</span>
                         </div>
                 </SwiperSlide>
